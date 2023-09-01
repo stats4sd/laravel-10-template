@@ -10,13 +10,13 @@ This repo is a template for new projects using:
 
 To start using this template for a new application:
 
-1. Clone this repository, e.g. `git clone git@github.com:stats4sd/laravel-10-template.git my-new-laravel-app`
-2. Remove the remote from the local repo: 
-   - `cd my-new-laravel-app`
-   - `git remote remove origin`
-3. Add a new remote repo. E.g:
-   - Create a new empty repository on Github
-   - Follow the instructions given on Github to add that as a new remote to your local repository.
+1. Create a new repository, using this as a template.
+2. Do the normal Laravel setup stuff:
+   - copy the .env.example file to .env and update the contents to match your local environment
+   - run `composer install`
+   - run `npm install`
+   - run `php artisan migrate:fresh --seed`
+   - run `php artisan key:generate`
 
 
 ## How is this template different from a clean installation? 
