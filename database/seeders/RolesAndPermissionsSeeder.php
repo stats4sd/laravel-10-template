@@ -20,6 +20,6 @@ class RolesAndPermissionsSeeder extends Seeder
         Role::updateOrCreate(['name' => 'manage users']);
 
         // Assign permissions to roles
-        $admin->givePermissionTo('manager users');
+        $admin->givePermissionTo('manage users');
     }
 }
